@@ -72,6 +72,8 @@ body {
 	padding-left: 30px;
 	-webkit-transition-duration: 0.4s;
   	transition-duration: 0.4s;
+
+ 
 }
 
 a:link {
@@ -89,13 +91,57 @@ a.email_button:hover {
 	text-transform: none;
 	padding-right: 20px;
 	padding-left: 20px;
+	padding-bottom: 10px;
 }
+
+
+
 
 
 
 
 footer {
-	font-size: 12px;
-	margin-top: 100px;
-	color: #FFF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
 }
+
+
+
+/** Mobile Styles **/
+
+@media (max-width: 600px) {
+
+			footer {
+
+  				text-align: center;
+				position: relative;
+				font-size: 12px;
+				margin-top: 100px;
+				color: #FFF;
+			}
+
+
+		}
+
+
+@media (max-height: 800px) {
+
+
+			footer {
+
+  				text-align: center;
+				position: relative;
+				font-size: 12px;
+				margin-top: 100px;
+				color: #FFF;
+			}
+
+}
+
+	/**font-size: 12px;
+	margin-top: 100px;
+	color: #FFF;**/
